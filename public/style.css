@@ -1,0 +1,21 @@
+.centered {
+    display: flex;
+    width: 70%;
+    margin: 0px auto;
+    justify-content: center;
+}
+ul {
+    list-style-type: decimal;
+}
+code {
+    background: #e9ecef;
+    padding: 1px 2px;
+    border-radius: 0.5px;
+}
+.jumbotron {
+    background: transparent;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+}

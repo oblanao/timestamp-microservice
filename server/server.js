@@ -6,9 +6,9 @@ const publicPath = path.join(__dirname+'/../public');
 
 const port = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send('bau!').end();
-})
+// app.get('/', (req, res) => {
+//     res.send('bau!').end();
+// })
 
 app.use(express.static(publicPath));
 

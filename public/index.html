@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FreeCodeCamp - Timestamp Microservice</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="centered">
+    <div class="jumbotron">
+        <h1 class="display-4">API Basejump: Timestamp Microservice</h1>
+        <hr class="my-4" />
+        <h3>User Stories:</h3>
+        <ul>
+            <li>I can pass a string as a parameter, and it will check to see whether that string contains either a unix timestamp or a natural language date (example: January 1, 2016)</li>
+            <li>If it does, it returns both the Unix timestamp and the natural language form of that date.</li>
+            <li>If it does not contain a date or Unix timestamp, it returns null for those properties.</li>
+        </ul>
+        <hr class="my-4" />
+        <h3>Example usage:</h3>
+        <code><span id='projectLink'></span>/December%2015,%202015</code>
+        <br />
+        <code><span id='projectLink'>/1450137600</span></code>
+        <hr class="my-4">
+        <h3>Example output:</h3>
+        <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code>
+    </div>
+    <footer>
+        <h4>Project by 
+            <a href="https://github.com/oblanao/" target="_blank">oblanao</a>
+             for 
+             <a href="https://www.freecodecamp.com" target="_blank">FreeCodeCamp</a>
+        </h4>
+    </footer>
+</body>
+</html>
